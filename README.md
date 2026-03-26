@@ -23,6 +23,7 @@ This analysis focuses on two key questions:
 ---
 
 ## Data Schema
+<img width="1400" height="842" alt="image" src="https://github.com/user-attachments/assets/c2f28530-0c88-4f29-b8bb-4fbed48fd678" />
 
 **Source:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
@@ -92,13 +93,16 @@ print(df.isnull().sum())
 # 2. Check for statistical column
 print("\n--- Numerical Summary ---")
 print(df.describe().T)
+<img width="1540" height="1225" alt="image" src="https://github.com/user-attachments/assets/aa65d90b-d7ee-4884-8713-26ce380f9de2" />
+
 
 ## 📊 Visualizations and Insights
 
 ### 1. Revenue Concentration
 
 Since profit data wasn’t available, I built a revenue model using a **30% commission assumption** and applied the **Pareto principle**.
-
+<img width="1226" height="851" alt="image" src="https://github.com/user-attachments/assets/79b0ab77-de88-4af3-9fa5-253a84186bb9" />
+<img width="1229" height="870" alt="image" src="https://github.com/user-attachments/assets/0d9d7649-354d-4619-a0cf-2c451c7851cd" />
 **Result:**
 - Only **18 product categories generate 80% of total revenue**
 
@@ -113,6 +117,7 @@ To measure the impact of delivery delays, I created a **satisfaction gap** by co
 Some smaller cities showed sharp drops in satisfaction but had low order volumes, which distorted the results. To correct this, I weighted late delivery rates by order volume.
 
 This helped focus on areas where improvements matter most.
+<img width="1244" height="884" alt="image" src="https://github.com/user-attachments/assets/2354e0c3-eeac-40a4-95e4-18153bfcf7e7" />
 
 ---
 
