@@ -92,7 +92,7 @@ print(df.isnull().sum())
 
 # 2. Check for statistical column
 print("\n--- Numerical Summary ---")
-print(df.describe().T)
+print(df.describe().T)```
 <img width="1540" height="1225" alt="image" src="https://github.com/user-attachments/assets/aa65d90b-d7ee-4884-8713-26ce380f9de2" />
 
 
