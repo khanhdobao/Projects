@@ -92,3 +92,61 @@ print(df.isnull().sum())
 # 2. Check for statistical column
 print("\n--- Numerical Summary ---")
 print(df.describe().T)
+
+## 📊 Visualizations and Insights
+
+### 1. Revenue Concentration
+
+Since profit data wasn’t available, I built a revenue model using a **30% commission assumption** and applied the **Pareto principle**.
+
+**Result:**
+- Only **18 product categories generate 80% of total revenue**
+
+This shows a strong concentration of value in a small set of categories.
+
+---
+
+### 2. Logistics and Customer Satisfaction
+
+To measure the impact of delivery delays, I created a **satisfaction gap** by comparing review scores for on-time vs late deliveries.
+
+Some smaller cities showed sharp drops in satisfaction but had low order volumes, which distorted the results. To correct this, I weighted late delivery rates by order volume.
+
+This helped focus on areas where improvements matter most.
+
+---
+
+### 🔍 Key Findings
+
+- Major cities like **São Paulo, Rio de Janeiro, and Belo Horizonte** have the highest number of late deliveries  
+- These cities also handle the largest order volumes  
+
+**Rio de Janeiro stands out:**
+- 6% of total orders  
+- 10% of all late deliveries  
+
+This gap highlights a clear logistics issue that needs attention.
+
+---
+
+## 💡 Strategic Recommendations
+
+### Focus on the "Top 18"
+- 80% of revenue comes from 18 categories  
+- Includes categories like **Health & Beauty** and **Watches**  
+- Prioritize marketing and inventory in these areas  
+
+---
+
+### Fix the "Crisis Cities"
+- Improve logistics in:
+  - São Paulo  
+  - Rio de Janeiro  
+  - Belo Horizonte  
+- Fixing these hubs addresses **~25% of delivery failures**
+
+---
+
+### Target the Rio Gap
+- Rio’s late delivery share (10%) exceeds its order share (6%)  
+- Indicates a specific logistics inefficiency that needs to be resolved
