@@ -142,7 +142,6 @@ This gap highlights a clear logistics issue that needs attention.
 - Includes categories like **Health & Beauty** and **Watches**  
 - Prioritize marketing and inventory in these areas  
 
----
 
 ### Fix the "Crisis Cities"
 - Improve logistics in:
@@ -151,7 +150,6 @@ This gap highlights a clear logistics issue that needs attention.
   - Belo Horizonte  
 - Fixing these hubs addresses **~25% of delivery failures**
 
----
 
 ### Target the Rio Gap
 - Rio’s late delivery share (10%) exceeds its order share (6%)  
