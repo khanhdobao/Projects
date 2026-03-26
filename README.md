@@ -92,11 +92,12 @@ print(df.isnull().sum())
 
 # 2. Check for statistical column
 print("\n--- Numerical Summary ---")
-print(df.describe().T)```
+print(df.describe().T)
+```
 <img width="1540" height="1225" alt="image" src="https://github.com/user-attachments/assets/aa65d90b-d7ee-4884-8713-26ce380f9de2" />
 
 
-## 📊 Visualizations and Insights
+##  Visualizations and Insights
 
 ### 1. Revenue Concentration
 
@@ -121,7 +122,7 @@ This helped focus on areas where improvements matter most.
 
 ---
 
-### 🔍 Key Findings
+###  Key Findings
 
 - Major cities like **São Paulo, Rio de Janeiro, and Belo Horizonte** have the highest number of late deliveries  
 - These cities also handle the largest order volumes  
@@ -134,7 +135,7 @@ This gap highlights a clear logistics issue that needs attention.
 
 ---
 
-## 💡 Strategic Recommendations
+##  Strategic Recommendations
 
 ### Focus on the "Top 18"
 - 80% of revenue comes from 18 categories  
@@ -154,4 +155,4 @@ This gap highlights a clear logistics issue that needs attention.
 
 ### Target the Rio Gap
 - Rio’s late delivery share (10%) exceeds its order share (6%)  
-- Indicates a specific logistics inefficiency that needs to be resolved
+- Indicates a specific logistics inefficiency that needs to be resolved.
